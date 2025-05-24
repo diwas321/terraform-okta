@@ -2,8 +2,12 @@ name: Terraform
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]         # Run on post-merge to main
   pull_request:
+    paths:
+      - '**.tf'
+      - '**.tfvars'
+
 
 jobs:
   terraform:
