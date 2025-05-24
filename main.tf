@@ -26,8 +26,8 @@ provider "okta" {
   org_name = "dev-1173502"
   base_url = "okta.com"
   client_id = var.okta_client_id
-  private_key = data.vault_kv_secret_v2.okta_private_key.data["key"]
-  #private_key = var.okta_private_key
+  #private_key = data.vault_kv_secret_v2.okta_private_key.data["key"]
+  private_key = var.okta_private_key
   scopes = ["okta.groups.manage"]
  
 }

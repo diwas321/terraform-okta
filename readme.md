@@ -1,1 +1,1 @@
-- this is a test repo to cd/cd okta app creation using terraform and github action runner
+- this is a test repo to ci/cd okta app creation using terraform and github action runner
