@@ -5,6 +5,6 @@ resource "okta_group" "example_group_created_using_terraform" {
 }
 
 resource "okta_group" "example_group_created_using_terraform2" {
-  name = "Example group created using terraform 2"
+  name = "Example group created using terraform 22"
 
 }
